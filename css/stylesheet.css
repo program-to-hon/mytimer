@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
+
+.header{
+    font-family: 'Rounded Mplus 1c';
+    background-color: #09a4cd;
+    color: #fff;
+    height: 60px;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+
+.container {
+    /*font-family: 'Nico Moji';*/
+    font-family: "Coutier", sans-serif;
+    width: 300px;
+    margin: 30px auto 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#target, #result {
+    font-size: 32px;
+    margin-bottom: 15px;
+    background: #ccc;
+    height: 60px;
+    line-height: 60px;
+}
+
+#start {
+    float: left;
+}
+
+#stop {
+    float: right;
+}
+
+#start, #stop {
+    cursor: pointer;
+    font-size: 18px;
+    width: 145px;
+    background: #eee;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 6px 1px #ccc;
+    user-select: none;
+}
+
+#start.pushed, #stop.pushed {
+  margin-top: 3px;
+  box-shadow: 0 3px 0 #ccc;
+}
+
+
+#result.stanby {
+    opacity: 0.5;
+}
+
+
+#result.perfect {
+    font-size: 32px;
+    margin-bottom: 15px;
+    background: red;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+}
+
+#message {
+    font-family: 'Rounded Mplus 1c';
+    font-size: 32px;
+    margin-top: 80px;
+    height: 60px;
+    line-height: 60px;
+}
