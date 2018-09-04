@@ -1,0 +1,12 @@
+@media(max-width: 670px) {
+    .container{
+        width: 100%;
+    }
+
+    #target, #result {
+        margin-bottom: 25px;
+
+    #start, #stop {
+        width: 45%;
+    }
+}
